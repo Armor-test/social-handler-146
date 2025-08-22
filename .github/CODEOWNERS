@@ -1,0 +1,40 @@
+# CODEOWNERS file for social-handler-146
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-release @Armor-test/unit-governance @Armor-test/team-logging
+
+# Directory ownership
+/plugins/ @Armor-test/grp-storage @Armor-test/grp-reporting
+/migrations/ @Armor-test/squad-apps @Armor-test/grp-api @Armor-test/squad-api
+/app/ @Armor-test/dept-security @Armor-test/grp-search
+/auth/ @Armor-test/team-governance @Armor-test/dept-logging @Armor-test/squad-tooling
+/vendor/ @Armor-test/dept-reliability @Armor-test/squad-qa @Armor-test/team-security
+/modules/ @Armor-test/squad-research @Armor-test/dept-reliability
+/spec/ @Armor-test/team-security @Armor-test/team-reporting
+/scripts/ @Armor-test/team-reporting @Armor-test/squad-tooling @Armor-test/dept-notifications
+/shared/ @Armor-test/team-security @Armor-test/dept-logging @Armor-test/grp-payments
+/data/ @Armor-test/dept-test @Armor-test/dept-identity
+/pages/ @Armor-test/squad-frontend @Armor-test/dept-automation
+/examples/ @Armor-test/dept-api @Armor-test/team-governance
+/models/ @Armor-test/grp-integration @Armor-test/team-frontend @Armor-test/dept-automation
+/utils/ @Armor-test/team-reporting @Armor-test/squad-performance
+/ui/ @Armor-test/grp-reporting @Armor-test/team-core
+
+# File type ownership
+*.config @Armor-test/team-research @Armor-test/squad-database @Armor-test/dept-data
+*.proto @Armor-test/grp-storage @Armor-test/team-security
+*.jsx @Armor-test/squad-research @Armor-test/grp-api
+*.php @Armor-test/squad-api @Armor-test/squad-qa @Armor-test/grp-api
+*.md @Armor-test/squad-payments @Armor-test/squad-cache
+*.yml @Armor-test/unit-design @Armor-test/dept-automation
+*.cpp @Armor-test/team-research @Armor-test/grp-payments @Armor-test/team-logging
+*.gradle @Armor-test/squad-performance @Armor-test/dept-api @Armor-test/unit-devops
+*.java @Armor-test/team-governance @Armor-test/squad-payments @Armor-test/grp-search
+*.ts @Armor-test/grp-storage @Armor-test/team-governance
+*.toml @Armor-test/dept-identity @Armor-test/dept-billing
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
